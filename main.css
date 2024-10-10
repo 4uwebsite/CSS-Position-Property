@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-position: inside;
+}
+
+.container {
+    width: 90%;
+    height: 200vh;
+    border: 1px solid yellowgreen;
+    margin: 0 auto;
+    /* position: relative; */
+}
+
+.inner-container {
+    margin: 5em auto;
+    border: 1px solid lightblue;
+    width: 50%;
+    height: 30%;
+    position: relative;
+}
+
+.box {
+    width: 200px;
+    /* height: 100px; */
+    border: 1px gray dashed;
+    color: whitesmoke;
+}
+
+.absolute {
+    background-color: red;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    display: block;
+}
+
+.relative {
+    background-color: blue;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    display: block;
+}
+
+.fixed {
+    background-color: rgb(0, 255, 119);
+    position: fixed;
+    top: 10px;
+    left: 100px;
+    display: block;
+}
+
+.sticky {
+    background-color: rgb(255, 0, 242);
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: block;
+}

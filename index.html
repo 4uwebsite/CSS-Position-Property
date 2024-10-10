@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position Property</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <main>
+        <h1>CSS Position Property</h1>
+        <div class="container">
+            <div class="inner-container">
+                <div class="box absolute">
+                    <p>ABSOLUTE</p>
+                    <ul>
+                        <li>If no relative parent will position itself by the root (HTML).</li>
+                        <li>if Relative is set to an ancestor  will position itself relative to the ancestor.</li>
+                    </ul>
+                </div>
+                <div class="box relative">
+                    <p>RELATIVE</p>
+                    <p>Stays relative to its parent. Doesn't really change much.</p>
+                </div>
+                <div class="box fixed">
+                    <p>FIXED</p>
+                    <p>Stays fully fixed to its position regardless of ancestor relativity.</p>
+                </div>
+                <div class="box sticky">
+                    <p>STICKY</p>
+                    <p>Sticks to its position relative to its ancestor's bounds.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
