@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100dvh;
+}
+
+button {
+    position: fixed;
+    top: 35%;
+    z-index: 1;
+}
+
+h1 {
+    position: sticky;
+    top: 0;
+
+    background-color: black;
+    color: white;
+}
