@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.492);
+    color: white;
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+a, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.492);
+    color: white;
+    width: 100%;
+}
+
